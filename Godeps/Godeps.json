@@ -1,0 +1,16 @@
+{
+	"ImportPath": "github.com/menza01",
+	"GoVersion": "go1.12",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/chaiyarin/bnk-gopackage",
+			"Rev": "7ee2b599ca66265d604596144eb48d2751ab5922"
+		},
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.5.0-28-gf6dcc3d",
+			"Rev": "f6dcc3d870a826fb4212f2f124acd2e4658632c5"
+		}
+	]
+}
