@@ -6,8 +6,9 @@ type Response struct {
 }
 
 type TodoRequest struct {
-	Name string `json:"name"`
-	Todo string `json:"todo"`
+	Name   string `json:"name"`
+	Todo   string `json:"todo"`
+	Status int    `json:"status"`
 }
 
 type TodoReponse struct {
@@ -18,8 +19,10 @@ type TodoReponse struct {
 }
 
 type TodoUpdate struct {
-	Id     int `json:"id"`
-	Status int `json:"status"`
+	Id     int    `json:"id"`
+	Status int    `json:"status"`
+	Name   string `json:"name"`
+	Todo   string `json:"todo"`
 }
 
 type TodoDelete struct {
